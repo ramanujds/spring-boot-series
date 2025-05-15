@@ -25,8 +25,6 @@ public class ProductServiceImpl implements ProductService {
 
 
     public Product addProduct(Product product) {
-        String name = scanner.nextLine();
-        System.out.println(name);
         return productRepository.addProduct(product);
     }
 
